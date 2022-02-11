@@ -6,11 +6,37 @@
 }
 
 body {
-  
+  background-color: #0F1C2C;
 }
 
 .container {
+  width: 100%;
+}
+
+.container-fluid {
   margin: 0 auto;
-  width: 80%;
-  height: 90%;
+  border-radius: 2rem;
+  width: 85%;
+  height: 650px;
+}
+
+#cardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  background: #142637;
+  width: 230px;
+  height: 230px;
+  margin: 1rem;
+}
+
+.btn,
+.aside {
+  background-color: #2D83D5;
+  color: #FEFEFE;
 }
