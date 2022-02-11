@@ -1,137 +1,16 @@
-html {
-  background-color: #f8f8f8;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  
 }
 
 .container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-}
-
-.container h1, svg{
-  text-align: center;
-  color:#001b29;
-  font-family: 'PT Sans', sans-serif;
-  text-transform: uppercase;
-}
-
-header {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-rows: auto;
-  grid-gap: 20px;
-}
-
-.card {
-  background-color: #fff;
-border-radius: 7px;
-  width: 250px;
-height: 250px;
-  cursor: pointer;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-box-shadow: 1px 2px 20px rgb(224, 224, 224);
-}
-
-.individual-card {
-  background-color: #001b29;
-border-radius: 50px;
-  padding: 20px;
-display: flex;
-}
-
-.clm-1 {
-width: 60%;
-color: #f8f8f8;
-}
-
-.card-image {
-  font-size: 50px;
-  text-align: center;
-}
-
-.card-title {
-  font-size: 25px;
-  text-align: center;
-}
-
-.card-footer {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 12px 20px;
-height: 50px;
-}
-
-.categories {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-auto-rows: auto;
-  grid-gap: 40px;
-}
-
-.category {
-  text-align: center;
-  padding: 20px;
-}
-
-.items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-auto-rows: auto;
-  grid-gap: 20px;
-}
-
-.item {
-  background-color:  #005b88;
-  text-align: center;
-  padding: 20px;
-  color: white;
-}
-
-.back {
-  background-color: #005b88;
-  color: white;
-  size: 20px;
-  cursor: pointer;
-}
-
-.comments {
-color: #eee;
-}
-
-form {
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-.btn {
-  color: #eee;
-  background-color: #001b29;
-  width: 50px;
-  height: 50px;
-  outline: none;
-  border: none;
-  border-radius: 50%;
-}
-
-.btn:first-child {
-  position: fixed;
-  top: 40%;
-  left: 20px;
-}
-
-.btn:nth-child(2) {
-  position: fixed;
-  top: 40%;
-  right: 20px;
+  margin: 0 auto;
+  width: 80%;
+  height: 90%;
 }
